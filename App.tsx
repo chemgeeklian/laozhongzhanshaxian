@@ -89,7 +89,7 @@ const App: React.FC = () => {
         <h1 className="text-3xl md:text-6xl font-bold tracking-tighter blood-text animate__animated animate__fadeInDown">
           老中斩杀线
         </h1>
-        <p className="text-gray-500 mt-1 text-xs md:text-sm italic">"老中这辈子有了"</p>
+        <p className="text-gray-500 mt-1 text-xs md:text-sm italic">"even dog won't write this game by hand"</p>
       </header>
 
       {/* 游戏主内容包裹容器 */}
@@ -148,7 +148,7 @@ const App: React.FC = () => {
                     {skill.points} PT
                   </div>
                 </div>
-                <p className="text-[10px] md:text-[11px] text-gray-500 text-left line-clamp-1 md:line-clamp-2 leading-tight md:leading-relaxed group-hover:text-gray-300">
+                <p className="text-[10px] md:text-[11px] text-gray-100 text-left line-clamp-1 md:line-clamp-2 leading-tight md:leading-relaxed">
                   {skill.description}
                 </p>
                 {isLethal && (
