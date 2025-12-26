@@ -89,7 +89,7 @@ const App: React.FC = () => {
         <h1 className="text-3xl md:text-6xl font-bold tracking-tighter blood-text animate__animated animate__fadeInDown">
           老中斩杀线
         </h1>
-        <p className="text-gray-500 mt-1 text-xs md:text-sm italic">"even dog won't write this game by hand"</p>
+        <p className="text-gray-500 mt-1 text-xs md:text-sm italic">"有建议直接pull request吧我去做下一个游戏了"</p>
       </header>
 
       {/* 游戏主内容包裹容器 */}
